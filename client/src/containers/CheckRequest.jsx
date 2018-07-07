@@ -119,33 +119,23 @@ class CheckRequest extends React.Component {
 				{this.state.mdata.length && <Button bsSize="lg" style={styles} onClick={() => this.setState({ mopen: !this.state.mopen })}>
 					医疗接送
         </Button>}
-				<Panel collapsible expanded={this.state.mopen}>
 					{this.state.mdata.length && this.state.mdata.map(Data => <MedicineView key={Data._id} {...Data} />)}
-				</Panel>
 				{this.state.sdata.length && <Button bsSize="lg" style={styles} onClick={() => this.setState({ sopen: !this.state.sopen })}>
 					购买食材
         </Button>}
-				<Panel collapsible expanded={this.state.sopen}>
 					{this.state.sdata.length && this.state.sdata.map(Data => <ShoppingView key={Data._id} {...Data} />)}
-				</Panel>
 				{this.state.hdata.length && <Button bsSize="lg" style={styles} onClick={() => this.setState({ hopen: !this.state.hopen })}>
 					住房维修
         </Button>}
-				<Panel collapsible expanded={this.state.hopen}>
 					{this.state.hdata.length && this.state.hdata.map(Data => <HouseView key={Data._id} {...Data} />)}
-				</Panel>
 				{this.state.tdata.length && <Button bsSize="lg" style={styles} onClick={() => this.setState({ topen: !this.state.topen })}>
 					出行接送
         </Button>}
-				<Panel collapsible expanded={this.state.topen}>
 					{this.state.tdata.length && this.state.tdata.map(Data => <TourView key={Data._id} {...Data} />)}
-				</Panel>
 				{this.state.ndata.length && <Button bsSize="lg" style={styles} onClick={() => this.setState({ nopen: !this.state.nopen })}>
 					帮找月嫂
         </Button>}
-				<Panel collapsible expanded={this.state.nopen}>
 					{this.state.ndata.length && this.state.ndata.map(Data => <NurseView key={Data._id} {...Data} />)}
-				</Panel>
 			</div>
 		);
 	}

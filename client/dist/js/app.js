@@ -59359,47 +59359,43 @@
 	      '\u4E2A\u4EBA\u4FE1\u606F'
 	    ),
 	    _react2.default.createElement(
-	      _reactBootstrap.Panel,
-	      { collapsible: true, expanded: profileOpen },
+	      _reactBootstrap.ListGroup,
+	      null,
 	      _react2.default.createElement(
-	        _reactBootstrap.ListGroup,
+	        _reactBootstrap.ListGroupItem,
 	        null,
-	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          '\u59D3\u540D   : ',
-	          name
-	        ),
-	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          '\u7535\u8BDD   : ',
-	          phone
-	        ),
-	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          'email  : ',
-	          email
-	        ),
-	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          '\u5FAE\u4FE1  : ',
-	          wechat
-	        ),
-	        birthday && _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          '\u4EA7\u65F6  : ',
-	          birthday
-	        ),
-	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          '\u5730\u5740  : ',
-	          address
-	        )
+	        '\u59D3\u540D   : ',
+	        name
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
+	        '\u7535\u8BDD   : ',
+	        phone
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
+	        'email  : ',
+	        email
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
+	        '\u5FAE\u4FE1  : ',
+	        wechat
+	      ),
+	      birthday && _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
+	        '\u4EA7\u65F6  : ',
+	        birthday
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
+	        '\u5730\u5740  : ',
+	        address
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -59409,64 +59405,60 @@
 	      '\u7533\u8BF7\u670D\u52A1'
 	    ),
 	    _react2.default.createElement(
-	      _reactBootstrap.Panel,
-	      { collapsible: true, expanded: serviceOpen },
+	      _reactBootstrap.ListGroup,
+	      { style: { color: 'blue' } },
 	      _react2.default.createElement(
-	        _reactBootstrap.ListGroup,
-	        { style: { color: 'blue' } },
+	        _reactBootstrap.ListGroupItem,
+	        null,
 	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/medicine' },
-	            '\u533B\u7597\u63A5\u9001'
-	          )
-	        ),
+	          _reactRouter.Link,
+	          { to: '/medicine' },
+	          '\u533B\u7597\u63A5\u9001'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
 	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/food' },
-	            '\u9910\u996E\u8BA2\u5355'
-	          )
-	        ),
+	          _reactRouter.Link,
+	          { to: '/food' },
+	          '\u9910\u996E\u8BA2\u5355'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
 	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/house' },
-	            '\u4F4F\u623F\u7EF4\u4FEE'
-	          )
-	        ),
+	          _reactRouter.Link,
+	          { to: '/house' },
+	          '\u4F4F\u623F\u7EF4\u4FEE'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
 	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/tour' },
-	            '\u51FA\u884C\u63A5\u9001'
-	          )
-	        ),
+	          _reactRouter.Link,
+	          { to: '/tour' },
+	          '\u51FA\u884C\u63A5\u9001'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
 	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/certificate' },
-	            '\u529E\u7406\u8BC1\u4EF6\uFF08\u672A\u5B8C\u6210\uFF09'
-	          )
-	        ),
+	          _reactRouter.Link,
+	          { to: '/certificate' },
+	          '\u529E\u7406\u8BC1\u4EF6\uFF08\u672A\u5B8C\u6210\uFF09'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        _reactBootstrap.ListGroupItem,
+	        null,
 	        _react2.default.createElement(
-	          _reactBootstrap.ListGroupItem,
-	          null,
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: '/nurse' },
-	            '\u627E\u6708\u5AC2'
-	          )
+	          _reactRouter.Link,
+	          { to: '/nurse' },
+	          '\u627E\u6708\u5AC2'
 	        )
 	      )
 	    ),
@@ -85702,41 +85694,37 @@
 					'\u7533\u8BF7\u9001\u9910\u670D\u52A1\uFF08\u9001\u9910\u7533\u8BF7\u63D0\u4EA4\u540E\u5C06\u6301\u7EED\u76F4\u5230\u53D6\u6D88\u9001\u9910\u670D\u52A1\uFF09'
 				),
 				_react2.default.createElement(
-					_reactBootstrap.Panel,
-					{ collapsible: true, expanded: startOpen },
+					_Card.CardText,
+					null,
+					'\u9009\u62E9\u9001\u9910\u5F00\u59CB\u65E5\u671F\uFF08\u8BF7\u81F3\u5C11\u63D0\u524D1\u5929\u9884\u7EA6 \uFF09'
+				),
+				_react2.default.createElement(_reactDatepicker2.default, { selected: time, onChange: changeDate }),
+				_react2.default.createElement(
+					_reactBootstrap.ToggleButtonGroup,
+					{ type: 'radio', name: 'detailedTime' },
 					_react2.default.createElement(
-						_Card.CardText,
-						null,
-						'\u9009\u62E9\u9001\u9910\u5F00\u59CB\u65E5\u671F\uFF08\u8BF7\u81F3\u5C11\u63D0\u524D1\u5929\u9884\u7EA6 \uFF09'
-					),
-					_react2.default.createElement(_reactDatepicker2.default, { selected: time, onChange: changeDate }),
-					_react2.default.createElement(
-						_reactBootstrap.ToggleButtonGroup,
-						{ type: 'radio', name: 'detailedTime' },
-						_react2.default.createElement(
-							_reactBootstrap.ToggleButton,
-							{ value: '8', onChange: onChange },
-							'\u65E9'
-						),
-						_react2.default.createElement(
-							_reactBootstrap.ToggleButton,
-							{ value: '12', onChange: onChange },
-							'\u4E2D'
-						),
-						_react2.default.createElement(
-							_reactBootstrap.ToggleButton,
-							{ value: '18', onChange: onChange },
-							'\u665A'
-						)
+						_reactBootstrap.ToggleButton,
+						{ value: '8', onChange: onChange },
+						'\u65E9'
 					),
 					_react2.default.createElement(
-						'div',
-						{ className: 'button-line' },
-						_react2.default.createElement(
-							_RaisedButton2.default,
-							{ type: 'submit', label: '\u63D0\u4EA4', primary: true },
-							_react2.default.createElement(_reactRouter.Link, { to: '/' })
-						)
+						_reactBootstrap.ToggleButton,
+						{ value: '12', onChange: onChange },
+						'\u4E2D'
+					),
+					_react2.default.createElement(
+						_reactBootstrap.ToggleButton,
+						{ value: '18', onChange: onChange },
+						'\u665A'
+					)
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'button-line' },
+					_react2.default.createElement(
+						_RaisedButton2.default,
+						{ type: 'submit', label: '\u63D0\u4EA4', primary: true },
+						_react2.default.createElement(_reactRouter.Link, { to: '/' })
 					)
 				)
 			),
@@ -85752,21 +85740,17 @@
 					'\u53D6\u6D88\u9001\u9910\u670D\u52A1'
 				),
 				_react2.default.createElement(
-					_reactBootstrap.Panel,
-					{ collapsible: true, expanded: cancelOpen },
+					_Card.CardText,
+					null,
+					'\u786E\u5B9A\u53D6\u6D88\u8BA2\u9910\u670D\u52A1\uFF1F'
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'button-line' },
 					_react2.default.createElement(
-						_Card.CardText,
-						null,
-						'\u786E\u5B9A\u53D6\u6D88\u8BA2\u9910\u670D\u52A1\uFF1F'
-					),
-					_react2.default.createElement(
-						'div',
-						{ className: 'button-line' },
-						_react2.default.createElement(
-							_RaisedButton2.default,
-							{ type: 'submit', label: '\u786E\u5B9A', primary: true },
-							_react2.default.createElement(_reactRouter.Link, { to: '/' })
-						)
+						_RaisedButton2.default,
+						{ type: 'submit', label: '\u786E\u5B9A', primary: true },
+						_react2.default.createElement(_reactRouter.Link, { to: '/' })
 					)
 				)
 			),
@@ -85782,120 +85766,116 @@
 					'\u8D2D\u4E70\u98DF\u6750'
 				),
 				_react2.default.createElement(
-					_reactBootstrap.Panel,
-					{ collapsible: true, expanded: shoppingOpen },
+					_Card.CardText,
+					null,
+					'\u516C\u53F8\u6BCF\u54685\u5C06\u8FDB\u884C\u4E00\u6B21\u91C7\u8D2D\uFF0C\u4F1A\u5C06\u60A8\u8FD9\u5468\u7533\u8BF7\u7684\u8D2D\u4E70\u7684\u98DF\u6750\u5728\u9001\u9910\u7684\u540C\u65F6\u9001\u81F3\u60A8\u7684\u5E9C\u4E0A'
+				),
+				_react2.default.createElement(
+					_reactBootstrap.FormGroup,
+					{ controlId: 'formControlsSelect' },
 					_react2.default.createElement(
-						_Card.CardText,
+						_reactBootstrap.ControlLabel,
 						null,
-						'\u516C\u53F8\u6BCF\u54685\u5C06\u8FDB\u884C\u4E00\u6B21\u91C7\u8D2D\uFF0C\u4F1A\u5C06\u60A8\u8FD9\u5468\u7533\u8BF7\u7684\u8D2D\u4E70\u7684\u98DF\u6750\u5728\u9001\u9910\u7684\u540C\u65F6\u9001\u81F3\u60A8\u7684\u5E9C\u4E0A'
+						'\u8BF7\u9009\u62E9\u60A8\u60F3\u8D2D\u4E70\u7684\u98DF\u6750'
 					),
 					_react2.default.createElement(
-						_reactBootstrap.FormGroup,
-						{ controlId: 'formControlsSelect' },
-						_react2.default.createElement(
-							_reactBootstrap.ControlLabel,
-							null,
-							'\u8BF7\u9009\u62E9\u60A8\u60F3\u8D2D\u4E70\u7684\u98DF\u6750'
-						),
-						_react2.default.createElement(
-							_reactBootstrap.FormControl,
-							{ componentClass: 'select', placeholder: 'select', name: 'item', onChange: onChange, style: {
-									margin: "auto", width: "50%",
-									display: "block"
-								} },
-							_react2.default.createElement('option', null),
-							_react2.default.createElement(
-								'option',
-								null,
-								'\u756A\u8304'
-							),
-							_react2.default.createElement(
-								'option',
-								null,
-								'\u571F\u8C46'
-							)
-						)
-					),
-					_react2.default.createElement(
-						_Card.CardText,
-						null,
-						'\u5982\u679C\u4E0A\u9762\u6CA1\u6709\u60A8\u9700\u8981\u7684\u98DF\u6750\uFF0C\u8BF7\u5728\u4E0B\u9762\u7684\u6846\u4E2D\u586B\u5199'
-					),
-					_react2.default.createElement(
-						'div',
-						{ className: 'field-line' },
-						_react2.default.createElement(_TextField2.default, {
-							floatingLabelText: '\u98DF\u6750',
-							name: 'item',
-							onChange: onChange,
-							value: item
-						})
-					),
-					_react2.default.createElement(
-						_reactBootstrap.FormGroup,
-						{ controlId: 'formControlsSelect' },
-						_react2.default.createElement(
-							_reactBootstrap.ControlLabel,
-							null,
-							'\u8BF7\u9009\u62E9\u60A8\u60F3\u8D2D\u4E70\u98DF\u6750\u7684\u6570\u91CF'
-						),
-						_react2.default.createElement(
-							_reactBootstrap.FormControl,
-							_defineProperty({ componentClass: 'select', placeholder: 'select', name: 'numberOfItem', onChange: onChange, style: { width: 30 } }, 'style', {
+						_reactBootstrap.FormControl,
+						{ componentClass: 'select', placeholder: 'select', name: 'item', onChange: onChange, style: {
 								margin: "auto", width: "50%",
 								display: "block"
-							}),
-							_react2.default.createElement('option', null),
-							_react2.default.createElement(
-								'option',
-								null,
-								'1'
-							),
-							_react2.default.createElement(
-								'option',
-								null,
-								'2'
-							),
-							_react2.default.createElement(
-								'option',
-								null,
-								'3'
-							)
+							} },
+						_react2.default.createElement('option', null),
+						_react2.default.createElement(
+							'option',
+							null,
+							'\u756A\u8304'
+						),
+						_react2.default.createElement(
+							'option',
+							null,
+							'\u571F\u8C46'
 						)
-					),
-					_react2.default.createElement(
-						_reactBootstrap.Button,
-						{ bsSize: 'lg', onClick: addItem, name: 'addItem' },
-						'\u5C06\u98DF\u6750\u52A0\u5165\u60A8\u7684\u8D2D\u7269\u6E05\u5355'
-					),
-					_react2.default.createElement(
-						'div',
-						{ className: 'field-line' },
-						_react2.default.createElement(_TextField2.default, {
-							floatingLabelText: '\u8D2D\u7269\u6E05\u5355',
-							value: shoppingListString
-						})
-					),
-					_react2.default.createElement(
-						'div',
-						{ className: 'field-line' },
-						_react2.default.createElement(_TextField2.default, {
-							floatingLabelText: '\u7279\u6B8A\u8981\u6C42',
-							name: 'additional',
-							onChange: onChange,
-							value: additional
-						})
-					),
-					_react2.default.createElement(
-						_Card.CardText,
-						null,
-						'\u8BF7\u786E\u8BA4\u9009\u53D6\u6240\u9700\u98DF\u6750\u540E\u518D\u63D0\u4EA4'
-					),
-					_react2.default.createElement(
-						'div',
-						{ className: 'button-line' },
-						_react2.default.createElement(_RaisedButton2.default, { type: 'submit', label: '\u63D0\u4EA4', primary: true })
 					)
+				),
+				_react2.default.createElement(
+					_Card.CardText,
+					null,
+					'\u5982\u679C\u4E0A\u9762\u6CA1\u6709\u60A8\u9700\u8981\u7684\u98DF\u6750\uFF0C\u8BF7\u5728\u4E0B\u9762\u7684\u6846\u4E2D\u586B\u5199'
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'field-line' },
+					_react2.default.createElement(_TextField2.default, {
+						floatingLabelText: '\u98DF\u6750',
+						name: 'item',
+						onChange: onChange,
+						value: item
+					})
+				),
+				_react2.default.createElement(
+					_reactBootstrap.FormGroup,
+					{ controlId: 'formControlsSelect' },
+					_react2.default.createElement(
+						_reactBootstrap.ControlLabel,
+						null,
+						'\u8BF7\u9009\u62E9\u60A8\u60F3\u8D2D\u4E70\u98DF\u6750\u7684\u6570\u91CF'
+					),
+					_react2.default.createElement(
+						_reactBootstrap.FormControl,
+						_defineProperty({ componentClass: 'select', placeholder: 'select', name: 'numberOfItem', onChange: onChange, style: { width: 30 } }, 'style', {
+							margin: "auto", width: "50%",
+							display: "block"
+						}),
+						_react2.default.createElement('option', null),
+						_react2.default.createElement(
+							'option',
+							null,
+							'1'
+						),
+						_react2.default.createElement(
+							'option',
+							null,
+							'2'
+						),
+						_react2.default.createElement(
+							'option',
+							null,
+							'3'
+						)
+					)
+				),
+				_react2.default.createElement(
+					_reactBootstrap.Button,
+					{ bsSize: 'lg', onClick: addItem, name: 'addItem' },
+					'\u5C06\u98DF\u6750\u52A0\u5165\u60A8\u7684\u8D2D\u7269\u6E05\u5355'
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'field-line' },
+					_react2.default.createElement(_TextField2.default, {
+						floatingLabelText: '\u8D2D\u7269\u6E05\u5355',
+						value: shoppingListString
+					})
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'field-line' },
+					_react2.default.createElement(_TextField2.default, {
+						floatingLabelText: '\u7279\u6B8A\u8981\u6C42',
+						name: 'additional',
+						onChange: onChange,
+						value: additional
+					})
+				),
+				_react2.default.createElement(
+					_Card.CardText,
+					null,
+					'\u8BF7\u786E\u8BA4\u9009\u53D6\u6240\u9700\u98DF\u6750\u540E\u518D\u63D0\u4EA4'
+				),
+				_react2.default.createElement(
+					'div',
+					{ className: 'button-line' },
+					_react2.default.createElement(_RaisedButton2.default, { type: 'submit', label: '\u63D0\u4EA4', primary: true })
 				)
 			),
 			_react2.default.createElement(
@@ -87067,13 +87047,9 @@
 							} },
 						'\u533B\u7597\u63A5\u9001'
 					),
-					_react2.default.createElement(
-						_reactBootstrap.Panel,
-						{ collapsible: true, expanded: this.state.mopen },
-						this.state.mdata.length && this.state.mdata.map(function (Data) {
-							return _react2.default.createElement(_MedicineView2.default, _extends({ key: Data._id }, Data));
-						})
-					),
+					this.state.mdata.length && this.state.mdata.map(function (Data) {
+						return _react2.default.createElement(_MedicineView2.default, _extends({ key: Data._id }, Data));
+					}),
 					this.state.sdata.length && _react2.default.createElement(
 						_reactBootstrap.Button,
 						{ bsSize: 'lg', style: styles, onClick: function onClick() {
@@ -87081,13 +87057,9 @@
 							} },
 						'\u8D2D\u4E70\u98DF\u6750'
 					),
-					_react2.default.createElement(
-						_reactBootstrap.Panel,
-						{ collapsible: true, expanded: this.state.sopen },
-						this.state.sdata.length && this.state.sdata.map(function (Data) {
-							return _react2.default.createElement(_ShoppingView2.default, _extends({ key: Data._id }, Data));
-						})
-					),
+					this.state.sdata.length && this.state.sdata.map(function (Data) {
+						return _react2.default.createElement(_ShoppingView2.default, _extends({ key: Data._id }, Data));
+					}),
 					this.state.hdata.length && _react2.default.createElement(
 						_reactBootstrap.Button,
 						{ bsSize: 'lg', style: styles, onClick: function onClick() {
@@ -87095,13 +87067,9 @@
 							} },
 						'\u4F4F\u623F\u7EF4\u4FEE'
 					),
-					_react2.default.createElement(
-						_reactBootstrap.Panel,
-						{ collapsible: true, expanded: this.state.hopen },
-						this.state.hdata.length && this.state.hdata.map(function (Data) {
-							return _react2.default.createElement(_HouseView2.default, _extends({ key: Data._id }, Data));
-						})
-					),
+					this.state.hdata.length && this.state.hdata.map(function (Data) {
+						return _react2.default.createElement(_HouseView2.default, _extends({ key: Data._id }, Data));
+					}),
 					this.state.tdata.length && _react2.default.createElement(
 						_reactBootstrap.Button,
 						{ bsSize: 'lg', style: styles, onClick: function onClick() {
@@ -87109,13 +87077,9 @@
 							} },
 						'\u51FA\u884C\u63A5\u9001'
 					),
-					_react2.default.createElement(
-						_reactBootstrap.Panel,
-						{ collapsible: true, expanded: this.state.topen },
-						this.state.tdata.length && this.state.tdata.map(function (Data) {
-							return _react2.default.createElement(_TourView2.default, _extends({ key: Data._id }, Data));
-						})
-					),
+					this.state.tdata.length && this.state.tdata.map(function (Data) {
+						return _react2.default.createElement(_TourView2.default, _extends({ key: Data._id }, Data));
+					}),
 					this.state.ndata.length && _react2.default.createElement(
 						_reactBootstrap.Button,
 						{ bsSize: 'lg', style: styles, onClick: function onClick() {
@@ -87123,13 +87087,9 @@
 							} },
 						'\u5E2E\u627E\u6708\u5AC2'
 					),
-					_react2.default.createElement(
-						_reactBootstrap.Panel,
-						{ collapsible: true, expanded: this.state.nopen },
-						this.state.ndata.length && this.state.ndata.map(function (Data) {
-							return _react2.default.createElement(_NurseView2.default, _extends({ key: Data._id }, Data));
-						})
-					)
+					this.state.ndata.length && this.state.ndata.map(function (Data) {
+						return _react2.default.createElement(_NurseView2.default, _extends({ key: Data._id }, Data));
+					})
 				);
 			}
 		}]);

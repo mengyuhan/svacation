@@ -30,7 +30,6 @@ const FoodForm = ({
 				{!haveMeal && <Button bsSize="lg" onClick={toggle} name="startButton">
 					申请送餐服务（送餐申请提交后将持续直到取消送餐服务）
         </Button>}
-				<Panel collapsible expanded={startOpen}>
 					<CardText>选择送餐开始日期（请至少提前1天预约 ）</CardText>
 					<DatePicker selected={time} onChange={changeDate} />
 					<ToggleButtonGroup type="radio" name="detailedTime">
@@ -41,7 +40,6 @@ const FoodForm = ({
 					<div className="button-line">
 						<RaisedButton type="submit" label="提交" primary><Link to={'/'} /></RaisedButton>
 					</div>
-				</Panel>
 			</form>
 			<form action="/" onSubmit={onSubmit} name="cancelForm">
 				{haveMeal && <Button bsSize="lg" onClick={toggle} name="cancelButton" style={{
@@ -50,12 +48,10 @@ const FoodForm = ({
 				}}>
 					取消送餐服务
         </Button>}
-				<Panel collapsible expanded={cancelOpen}>
 					<CardText>确定取消订餐服务？</CardText>
 					<div className="button-line">
 						<RaisedButton type="submit" label="确定" primary><Link to={'/'} /></RaisedButton>
 					</div>
-				</Panel>
 			</form>
 
 			<form action="/" onSubmit={onSubmit} name="shoppingForm">
@@ -65,7 +61,6 @@ const FoodForm = ({
 				}}>
 					购买食材
         </Button>
-				<Panel collapsible expanded={shoppingOpen}>
 					<CardText>公司每周5将进行一次采购，会将您这周申请的购买的食材在送餐的同时送至您的府上</CardText>
 					<FormGroup controlId="formControlsSelect" >
 						<ControlLabel>请选择您想购买的食材</ControlLabel>
@@ -120,7 +115,6 @@ const FoodForm = ({
 					<div className="button-line">
 						<RaisedButton type="submit" label="提交" primary />
 					</div>
-				</Panel>
 			</form>
 			<h4>急事请打电话 XXX-XXXX-XXXX 微信有时无法及时回复 </h4>
 		</Card>

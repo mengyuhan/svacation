@@ -26,7 +26,6 @@ const Dashboard = ({
 			display:"block"}}>
           个人信息
         </Button>
-				<Panel collapsible expanded={profileOpen}>
           <ListGroup>
               <ListGroupItem>姓名   : {name}</ListGroupItem>
               <ListGroupItem>电话   : {phone}</ListGroupItem>
@@ -35,13 +34,11 @@ const Dashboard = ({
               {birthday && <ListGroupItem>产时  : {birthday}</ListGroupItem>}
               <ListGroupItem>地址  : {address}</ListGroupItem>
           </ListGroup>
-        </Panel>
 
         <Button bsSize="lg" onClick={toggle} name="serviceButton" style = {{margin:"auto",width:"50%",
 			display:"block"}}>
           申请服务
         </Button>
-        <Panel collapsible expanded={serviceOpen}>
             <ListGroup style={{color: 'blue' }}>
               <ListGroupItem><Link to={'/medicine'}>医疗接送</Link></ListGroupItem>
               <ListGroupItem><Link to={'/food'}>餐饮订单</Link></ListGroupItem>
@@ -50,7 +47,6 @@ const Dashboard = ({
               <ListGroupItem><Link to={'/certificate'}>办理证件（未完成）</Link></ListGroupItem>
               <ListGroupItem><Link to={'/nurse'}>找月嫂</Link></ListGroupItem>
             </ListGroup>
-      </Panel>
 
       <Button bsSize="lg"><Link to={'/request'} >查看已预定的服务</Link></Button>
   </Card>
